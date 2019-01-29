@@ -1,0 +1,1 @@
+./build/examples/ssd/ssd_detect models/mac/mobilenet_yolov3_lite_deploy.prototxt models/mac/mobilenet_yolov3_lite_deploy_iter_10.caffemodel -file_type image -wait_time 3000 -mean_value 0.5,0.5,0.5 -normalize_value 0.007843 -confidence_threshold 0.3 
